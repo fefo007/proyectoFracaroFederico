@@ -1,7 +1,6 @@
 const express = require('express')
 const app = express()
-const Contenedor = require('./index2.js')
-const contenedor = new Contenedor('productos.txt')
+// const Contenedor = require('./index2.js')
 const fs = require('fs');
 
 
@@ -104,6 +103,8 @@ const prod5 ={
     name:'Bicicleta Mountain Bike Cuadro Aluminio Rodado 29” Nordic X3',
     price:49.999,
     thumbnail:'https://www.fravega.com/p/bicicleta-mountain-bike-cuadro-aluminio-rodado-29-nordic-x3-negro-verde-560985/'}
+
+const contenedor = new Contenedor('productos.txt')
 
 const productos = async ()=>{
     let listaProductos=JSON.stringify(await contenedor.getAll())

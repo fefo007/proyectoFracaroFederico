@@ -2,7 +2,7 @@
   "name": "proyectofracarofederico",
   "version": "1.0.0",
   "description": "",
-  "main": "serverFracaro.js",
+  "main": "index2.js",
   "scripts": {
     "start": "node serverFracaro.js",
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const Contenedor = require('./index2.js')
+const Contenedor = require('./index.js')
 const contenedor = new Contenedor('productos.txt')
 
 
